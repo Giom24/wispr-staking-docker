@@ -6,7 +6,7 @@ Replace the placeholders in the Dockerfile with your username and password to cr
 Copy your already encrypted wallet.dat in this directory.
 
 **Build the Container:**  
-$ sudo docker build . -t wisper-staking-image
+$ sudo docker build . -t wispr-staking-image
 
 **Run the Container:**  
 $ sudo docker run -dit --name=wispr-staking wispr-staking-image
